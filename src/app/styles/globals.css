@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.roboto{
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.bebas {
+  font-family: var(--font-bebas-neue), sans-serif;
+}
+
+.poppins {
+  font-family: var(--font-poppins), sans-serif;
+}

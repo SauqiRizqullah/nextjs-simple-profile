@@ -1,5 +1,29 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
+import Navbar from "@/components/Navbar";
+import { Bebas_Neue, Roboto, Poppins } from "next/font/google";
+
+// font configuration
+
+const bebasNeue = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-bebas-neue",
+})
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "500", "700", "900"],
+  variable: "--font-roboto"
+})
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+})
+  
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,9 +43,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} ${bebasNeue.variable} ${poppins.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
