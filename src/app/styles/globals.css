@@ -36,3 +36,7 @@ body {
 .poppins {
   font-family: var(--font-poppins), sans-serif;
 }
+
+.vampiro {
+  font-family: var(--font-vampiro);
+}

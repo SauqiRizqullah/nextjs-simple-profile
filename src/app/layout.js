@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
-import { Bebas_Neue, Roboto, Poppins } from "next/font/google";
+import Footer from "@/components/Footer";
+import { Bebas_Neue, Roboto, Poppins, Vampiro_One } from "next/font/google";
 
 // font configuration
 
@@ -22,6 +23,12 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-poppins",
 })
+
+const vampiro = Vampiro_One({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-vampiro",
+});
   
 
 
@@ -45,10 +52,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} ${bebasNeue.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} ${bebasNeue.variable} ${poppins.variable} ${vampiro.variable} antialiased`}
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
