@@ -31,6 +31,7 @@ export default function Footer() {
         {/* CREATED BY SAUQI */}
         <div className="text-center text-xs">
             Created by <a href="#" className="text-blue-600 underline underline-offset-1 hover:text-blue-800">Sauqi</a>
+            
         </div>
     </div>
     )
