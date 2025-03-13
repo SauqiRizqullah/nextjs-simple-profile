@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div>
       {/* // Foto Profil / Nama / Bio */}
-    <div className="grid grid-cols-16 text-slate-50 bg-gradient-to-b from-blue-950 to-purple-700 pt-32 pb-10 gap-4">
+    <div className="grid md:grid-cols-16 grid-rows-5 md:grid-rows-2 text-slate-50 bg-gradient-to-b from-blue-950 to-purple-700 pt-32 pb-10 gap-4">
       {/* Foto dan Nama */}
-      <div className="col-span-7 text-center">
+      <div className="md:col-span-7 row-span-2 text-center">
           {/* Flex */}
           <div className="flex flex-col justify-center">
             <div className="flex justify-center pb-2">
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
       </div>
       {/* Bio */}
-      <div className="col-span-9 text-left pr-44 poppins text-sm leading-7">
+      <div className="md:col-span-9 row-span-3 md:text-left text-center md:pr-44 pr-7 md:pl-0 pl-7 poppins text-sm md:leading-7 leading-6">
       Hello, folks. My name is Sauqi. I am a graduate in a bachelor degree from Brawijaya University, Mechanical Engineering. I switched my career to programming field.
       Apart from programming, I like to self educate myself from reading books to improve my reading literation. 
       Furthermore through reading books, it helps me to become more independent individual and growth my own unique values.
