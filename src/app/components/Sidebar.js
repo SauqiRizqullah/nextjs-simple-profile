@@ -22,7 +22,7 @@ export default function Sidebar({ isVisible, toggleSidebar }) {
                         <a id="page"  href="/values" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Values</a>
                     </li>
                     <li className="flex items-center ml-5">
-                        <a id="page"  href="/journey" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Healthiness</a>
+                        <a id="page"  href="/healthiness" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Healthiness</a>
                     </li>
                 </ul>
             </aside>
