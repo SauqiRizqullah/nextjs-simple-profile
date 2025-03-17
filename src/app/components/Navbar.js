@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Image from "next/image";
 import Sidebar from "@/components/Sidebar"
+import Link from "next/link";
 
 
 
@@ -66,13 +67,13 @@ export default function Navbar() {
             
             <ul id="sub-pages" className="md:flex flex-row gap-6 hidden">
                 <li className="flex items-center md:my-0 my-1 md:mx-0 mx-4">
-                    <a id="page"  href="/journey" className="hover:text-slate-400 transition duration-300 ease-out">Journey</a>
+                    <Link id="page"  href="/journey" className="hover:text-slate-400 transition duration-300 ease-out">Journey</Link>
                 </li>
                 <li className="flex items-center md:my-0 my-1 md:mx-0 mx-4">
-                    <a id="page"  href="/values" className="hover:text-slate-400 transition duration-300 ease-out">Values</a>
+                    <Link id="page"  href="/values" className="hover:text-slate-400 transition duration-300 ease-out">Values</Link>
                 </li>
                 <li className="flex items-center md:my-0 my-1 md:mx-0 mx-4">
-                    <a id="page"  href="/healthiness" className="hover:text-slate-400 transition duration-300 ease-out">Healthiness</a>
+                    <Link id="page"  href="/healthiness" className="hover:text-slate-400 transition duration-300 ease-out">Healthiness</Link>
                 </li>
             </ul>
         </nav>

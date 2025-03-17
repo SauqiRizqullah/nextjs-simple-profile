@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 export default function Sidebar({ isVisible, toggleSidebar }) {
 
@@ -13,16 +13,16 @@ export default function Sidebar({ isVisible, toggleSidebar }) {
                 </div>
                 <ul className="flex flex-col text-sm gap-2">
                     <li className="flex items-center ml-5">
-                        <a id="page"  href="/" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Home</a>
+                        <Link id="page"  href="/" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out" onClick={toggleSidebar}>Home</Link>
                     </li>
                     <li className="flex items-center ml-5">
-                        <a id="page"  href="/journey" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Journey</a>
+                        <Link id="page"  href="/journey" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out" onClick={toggleSidebar}>Journey</Link>
                     </li>
                     <li className="flex items-center ml-5">
-                        <a id="page"  href="/values" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Values</a>
+                        <Link id="page"  href="/values" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out" onClick={toggleSidebar}>Values</Link>
                     </li>
                     <li className="flex items-center ml-5">
-                        <a id="page"  href="/healthiness" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out">Healthiness</a>
+                        <Link id="page"  href="/healthiness" className="hover:text-purple-400 text-blue-800 transition duration-300 ease-out" onClick={toggleSidebar}>Healthiness</Link>
                     </li>
                 </ul>
             </aside>
