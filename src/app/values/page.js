@@ -97,7 +97,7 @@ export default function Values() {
             </div>
             {/* Judul */}
             <div className="poppins font-semibold text-xl text-slate-50">
-              <span>OBSTACLE</span>
+              <span>PERSISTENCE</span>
             </div>
           </div>
         </div>
