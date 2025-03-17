@@ -10,7 +10,7 @@ export default function Values() {
           <span>VALUES</span>
         </div>
         {/* Isi */}
-        <div className="poppins text-center leading-7 text-slate-50 px-72 pb-8">
+        <div className="poppins text-center leading-7 text-slate-50 md:px-72 px-20 pb-8">
           <span>
             A lot of values that I concerned about. But in this section, I want
             to share what values are most important according to me.

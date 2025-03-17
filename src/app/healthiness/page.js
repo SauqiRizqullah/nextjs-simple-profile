@@ -10,7 +10,7 @@ export default function healthiness(){
                     <span>HEALTHINESS</span>
                 </div>
                 {/* Isi */}
-                <div className="poppins text-center leading-7 text-slate-50 px-72 pb-8">
+                <div className="poppins text-center leading-7 text-slate-50 md:px-72 px-20 pb-8">
                     <span>
                         Just like a I said before at the homepage, I like to workout whenever I have a freetime.
                         What you have to know is healthiness is one of the most important aspect in our life.

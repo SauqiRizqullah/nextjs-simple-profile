@@ -11,7 +11,7 @@ export default function Journey(){
                     <span>JOURNEY</span>
                 </div>
                 {/* Isi */}
-                <div className="poppins text-center leading-7 text-slate-50 px-72 pb-8">
+                <div className="poppins text-center leading-7 text-slate-50 md:px-72 px-20 pb-8">
                     <span>
                         The summary of this content is about how the world change my perspective of life.
                         What kind of life do I want to achieve in the future?

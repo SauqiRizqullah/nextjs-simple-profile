@@ -67,6 +67,8 @@ export default function Navbar() {
         <div className="bg-blue-950 h-11 w-full">
 
         </div>
+
+        
         </div>
         
             
