@@ -51,7 +51,7 @@ export default function Navbar() {
             </div>
             {/* GROWTH */}
             <div className="flex items-center">
-                <a id="page"  href="#" className="hover:text-slate-400 transition duration-300 ease-out">Growth</a>
+                <a id="page"  href="/journey" className="hover:text-slate-400 transition duration-300 ease-out">Journey</a>
             </div>
             {/* VALUES */}
             <div className="flex items-center">
