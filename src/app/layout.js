@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Bebas_Neue, Roboto, Poppins, Vampiro_One } from "next/font/google";
+import Sidebar from "@/components/Sidebar";
 
 // font configuration
 
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} ${bebasNeue.variable} ${poppins.variable} ${vampiro.variable} antialiased`}
       >
+        <Sidebar />
         <Navbar />
         {children}
         <Footer />
