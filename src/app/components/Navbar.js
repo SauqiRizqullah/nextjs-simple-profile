@@ -55,7 +55,7 @@ export default function Navbar() {
             </div>
             {/* VALUES */}
             <div className="flex items-center">
-                <a id="page"  href="#" className="hover:text-slate-400 transition duration-300 ease-out">Values</a>
+                <a id="page"  href="/values" className="hover:text-slate-400 transition duration-300 ease-out">Values</a>
             </div>
             {/* HEALTHINESS */}
             <div className="flex items-center">
